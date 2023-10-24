@@ -463,14 +463,9 @@ blockquote {
 .text-align-right {
   text-align: right;
 }
-.temp {
-  text-align: center;
-  margin-top: 100px;
-}
-
 .text-size-medium {
   font-size: 1.125rem;
-}
+}       
 
 .utility-page-wrap {
   width: 100vw;
@@ -1274,6 +1269,12 @@ blockquote {
 .work-title, .work-item {
   width: 100%;
   display: flex;
+  justify-content: center;
+}
+
+.work-item-page {
+  width: 100%;
+  display: flex;
 }
 
 .work-item.odd {
@@ -1351,9 +1352,8 @@ blockquote {
 }
 
 .work-image {
-  width: 100%;
+  width: 85%;
   height: 100%;
-  object-fit: cover;
   position: absolute;
   top: 0%;
   bottom: 0%;
